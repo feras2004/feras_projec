@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding:25px 5%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #242A45;
+    text-transform: capitalize;
+    align-items: right;
+    display: inline-block;
+    font-weight: bold;
+}
+a span{
+    color: #FF6464;
+}
+.container{
+    padding: 85px 15%;
+}
+.container h1{
+    font-weight: bold;
+    padding-bottom: 25px;
+    font-size: 33px;
+}
+hr{
+    padding-bottom: 15px;
+}
+.div-1{
+    display: flex;
+    padding: 14px;
+    border-bottom: solid 1px #E0E0E0;
+}
+.div-2{
+  
+    padding: 23px;
+}
+.div-2 img{
+    padding-bottom: 10px;
+}
+
+.div-2 h3{
+    font-size: 25px;
+    color: #21243D;
+    padding-top: 23px;
+    padding-bottom: 17px;
+}
+.div-2 h3 a{
+    text-decoration: none;
+}
+.div-2 p{
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+.div-2.year{
+    padding: 5px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 5px;
+    color: #FFFFFF;
+    background-color: #21243D;
+    border-radius: 20px;
+}
+.right p span{
+    color: #8695A4;
+}
+.div-11{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.div-11-col{
+    margin: 13px;
+    padding:30px;
+}
+.div-11-col img{
+    padding: 10px;
+}
+.footer{
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+

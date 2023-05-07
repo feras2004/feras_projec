@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding:28px 5%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #242A45;
+    text-transform: capitalize;
+    align-items: right;
+    display: inline-block;
+    font-weight: bold;
+}
+a span{
+    color: #FF6464;
+}
+
+.container-1{
+    padding: 83px 12%;
+}
+.container-1 h1{
+    margin: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left:23px ;
+ 
+}
+p{
+    font-size: 23px;
+}
+.small-div {
+  display: inline-block;
+  padding: 45px;
+  
+}
+.small-div-1{
+    flex-basis: 30%;
+    background-color: white;
+    padding:15px;
+    font-size: 10px;
+    align-items: flex-start;
+
+}
+.small-div-1 h1{
+    color: #21243D;
+    padding: 10px;
+    line-height: 1.5;
+ }
+ .small-div-1 h2{
+    font-size: 20px;
+    font-weight: bold;
+ }
+.small-div-1 p{
+    color: #21243D;
+    padding: 9px;
+    line-height: 1.5;
+}
+.small-div-1 p span{
+    padding: 9px;
+    color: #8695A4;
+}
+.div-11{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.div-11-col{
+    margin: 10px;
+    padding:25px;
+}
+.div-11-col img{
+    padding: 10px;
+}
+.footer{
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+
+  
+
+

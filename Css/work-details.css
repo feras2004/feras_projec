@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding:27px 5%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #242A45;
+    text-transform: capitalize;
+    align-items: right;
+    display: inline-block;
+    font-weight: bold;
+}
+a span{
+    color: #FF6464;
+}
+.container-2{
+    padding: 83px 12%;
+}
+.container-2 h1{
+    font-weight: bold;
+    padding-bottom: 35px;
+    font-size: 35px;
+}
+.div-1{
+    display: block;
+    padding-bottom: 34px;
+    padding-right: 10px;
+}
+.div-3{
+    font-weight: bold;
+    font-size: 23px;
+    padding-bottom: 15px;
+}
+.div-4{
+ font-weight: bold;
+ font-size: 15px;
+}
+.div-5.year{
+    padding: 5px 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 5px;
+    color: #FFFFFF;
+    background-color:#FF7C7C;
+    border-radius: 20px;
+}
+.par{
+    padding-bottom: 30px;
+}
+.para{
+    padding-bottom: 27px;
+}
+.div-11{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.div-11-col{
+    margin: 10px;
+    padding:25px;
+}
+.div-11-col img{
+    padding: 10px;
+}
+.footer{
+    padding: 10px;
+    font-size: 15px;
+}
